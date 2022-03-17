@@ -1,0 +1,195 @@
+@import '_variables.scss';
+@import '_mixins.scss';
+@import '_fonts.scss';
+
+@import '~bootstrap/scss/bootstrap';
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+@import '_bs_overrides.scss';
+
+body {
+  color: var(--font-color2);
+}
+
+.gray-border-left{
+    padding-left: 1rem;
+    border-left: 5px solid var(--font-color2);
+}
+/* -------------------------- Header ------------------------- */
+#header {
+  position: relative;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;
+    height: calc(40vw * 0.7);
+    background-color: var(--main-color);
+  }
+
+  .navbar-toggler {
+    border: none;
+    font-size: xx-large;
+  }
+
+  .nav-link {
+    color: var(--font-color) !important;
+  }
+}
+
+// Sections Formatting
+section {
+    position: relative;
+
+    &:nth-child(even) {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    &.pattern-bg-right-bottom::before {
+        content: '';
+        position: absolute;
+        display: block;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/pattern.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 100% 100%;
+    }
+
+    &.pattern-bg-left-top::before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -5vh;
+        left: -5vw;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        //background-color:red !important;
+      
+        background-image: url(../images/pattern.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+      
+    }
+}
+
+/* -------------------------- Hero ------------------------- */
+#hero {
+    .bg-light {
+        background-color: var(--background-color2) !important;
+    }
+
+    .rounded-3 {
+        border-radius: 15px;
+    }   
+}
+
+/* -------------------------- about us ------------------------- */
+#aboutus{
+    h2 {
+        color: #5a5a63;
+      }
+
+    p {
+        color: #5a5a63;
+        font-size: large;
+    }
+}
+
+/* -------------------------- services ------------------------- */
+#services{
+    .card .card-body {
+        background-color: var(--background-color);
+    }
+}
+
+/* -------------------------- Projects -------------------------- */
+#projects{
+    .card:hover{
+        &::before{
+            content: '';
+            display: block;
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background-color: var(--second-color);
+            opacity: 0.3;
+            mix-blend-mode: color-burn;
+        }
+
+    }
+}
+
+/* -------------------------- Contact -------------------------- */
+#contact {
+    background-color: var(--main-color);
+
+    .contact-form {
+        background-color: white;
+        padding-left: 11vw;
+
+        input, textarea{
+            color: var(--font-color2);
+            border-right: none;
+            border-top: none;
+            border-left: none;
+            background-color: transparent;
+            font-size: larger;
+        }
+
+        label{
+            color: #BBBBBB;
+        }
+
+        .form-floating > .form-control:focus ~ label, 
+        .form-floating > .form-control:not(:placeholder-shown) ~ label, 
+        .form-floating > .form-select ~ label {
+            opacity: 1;
+            transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+        }
+
+        input:focus,
+        textarea::focus {
+            color: var(--font-color3);
+            border-bottom-color: var(--font-color3);
+        }
+    }
+
+    .contact-img {
+        z-index: 10;
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-right: -10vw;
+        }
+    }
+
+}
+
+/* -------------------------- Footer ------------------------- */
+footer {
+  background-color: var(--main-color);
+
+  a{
+    color: var(--font-color);
+  }
+
+  .page-end {
+    background-color: var(--font-color2) !important;
+    height: 50px;
+    background-color: var(--font-color2);
+  }
+}
+
+@import '_media_queries.scss';
