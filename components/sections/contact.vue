@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="contact-img col-12 col-md-5 d-flex align-items-center justify-content-end">
-                    <img src="~/assets/images/9.jpg" class="rounded shadow-sm" alt="">
+                    <img src="~/assets/images/9.webp" class="rounded shadow-sm" alt="">
                 </div>
                 <div class="contact-form col-12 col-md-7 bg-white shadow-sm rounded-3 py-5 pe-4">
                     <h2 class=" display-5">Contact Us</h2>

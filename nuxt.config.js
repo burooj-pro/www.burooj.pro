@@ -15,10 +15,32 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Custom-designed, state-of-the-art drone technology to clean building exteriors' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'author', content: 'Burooj Efficiency' },
+      { name: 'author', type: 'text/plain', href: '/humans.txt' },
+      { name: 'keywords', content: 'Custom, design, state of art, drone, technology, clean, building, exteriors, high, rise, khobar, east, eastern, saudi, arabia, efficiency, center' },
+
+      { name: 'og:type', content: 'Burooj Efficiency' },
+      { name: 'og:title', content: 'Burooj Efficiency | كفاءة البروج' },
+      { name: 'og:description', content: 'Custom-designed, state-of-the-art drone technology to clean building exteriors' },
+      { name: 'og:image', content: 'https://www.burooj.pro/social-icon.png' },
+      { name: 'og:url', content: 'https://www.burooj.pro' },
+      { name: 'og:site_name', content: 'Burooj Efficiency' },
+
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Burooj Efficiency | كفاءة البروج' },
+      { name: 'twitter:description', content: 'Custom-designed, state-of-the-art drone technology to clean building exteriors' },
+      { name: 'twitter:image', content: 'https://www.burooj.pro/social-icon.png' },
+      { name: 'twitter:url', content: 'https://www.burooj.pro' },
+      { name: 'twitter:site', content: '@buroojsa' },
+      { name: 'twitter:creator', content: '@buroojsa' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+        { rel: 'icon', type: 'image/png', href: '/logo.png' },
     ]
   },
 

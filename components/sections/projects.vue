@@ -9,17 +9,17 @@
                 </div>
                 <div class="col-12 col-lg-3 col-md-6">
                     <div class="card">
-                        <img src="~/assets/images/projects/project1.png" class="card-img" height="300" alt="...">
+                        <img src="~/assets/images/projects/project1.webp" class="card-img" height="300" alt="...">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="~/assets/images/projects/project2.png" class="card-img" height="300" alt="...">
+                        <img src="~/assets/images/projects/project2.webp" class="card-img" height="300" alt="...">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card">
-                        <img src="~/assets/images/projects/project3.png" class="card-img" height="300" alt="...">
+                        <img src="~/assets/images/projects/project3.webp" class="card-img" height="300" alt="...">
                     </div>
                 </div>
             </div>

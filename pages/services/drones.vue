@@ -7,7 +7,7 @@
             <article class="card rounded-3 shadow-sm">
                 <div class="row g-0">
                     <div class="col-md-4">
-                    <img src="~/assets/images/services/img1.jpg" class="img-fluid rounded-start" alt="...">
+                    <img src="~/assets/images/services/img1.webp" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                     <div class="card-body">
@@ -26,7 +26,19 @@
 
 <script>
 export default {
+    head() {
+      return {
+          title: 'Drone Cleaning',
+          meta: [
+              {
+                  hid: 'description',
+                  name: 'description',
+                  content:'Whether your needs are commercial or residential, Buruge has a drone cleaning solution for your building'
+              }
 
+          ]
+      }
+  }
 }
 </script>
 

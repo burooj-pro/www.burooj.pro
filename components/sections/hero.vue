@@ -10,7 +10,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 rounded-3 bg-light d-flex justify-content-center align-items-center">
-                    <img src="~/assets/images/dronepic.png" class="img-fluid" alt="" srcset="">
+                    <img src="~/assets/images/dronepic.webp" class="img-fluid" alt="" srcset="">
                 </div>
             </div>
         </div>

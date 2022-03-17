@@ -1,0 +1,18 @@
+/* TEAM */
+	Manager: Ghadeer Alanazi
+	Contact: ghadeer [at] promoe.com.sa
+
+    Designer: Reem Abahussain
+
+    Developer: Mohannad Otaibi 
+    Name: 6 Degrees Technologies
+    Twitter: @bufai7an
+    Contact: mohannad [at] 6d.com.sa
+
+/* SITE */
+	Last update:2022/03/17
+	Language: English / Arabic (Soon)
+    Standards: HTML5, CSS3
+    Frameworks: bootstrap 5, bootstrap icons, Nuxtjs
+	Doctype:HTML5
+	IDE: VSCode

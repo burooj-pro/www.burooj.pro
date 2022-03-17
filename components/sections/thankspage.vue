@@ -4,6 +4,9 @@
               <div class="alert alert-success">
                 <strong>Thank you! </strong>we have received your message and will get back to you shortly.
             </div>
+            <div class="d-grid gap-2">
+            <a href="/" class="btn btn-primary" type="button">Go back to main page</a>
+            </div>
           </div>
       
       

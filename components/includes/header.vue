@@ -13,7 +13,7 @@
                     </ul>
                 </div>
                 <div id="logo" class="navbar-brand order-md-1">
-                    <a href="/"><img src="~/assets/images/logo/logo.png" height="80" width="62" id="logo" alt="Buruge"></a>
+                    <a href="/"><img src="~/assets/images/logo/logo.webp" height="80" width="62" id="logo" alt="Buruge"></a>
                 </div>
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="text-white bi bi-list"></i>

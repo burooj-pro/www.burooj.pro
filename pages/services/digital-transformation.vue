@@ -7,7 +7,7 @@
             <article class="card rounded-3 shadow-sm">
                 <div class="row g-0">
                     <div class="col-md-4">
-                    <img src="~/assets/images/services/img2.jpg" class="img-fluid rounded-start" alt="...">
+                    <img src="~/assets/images/services/img2.webp" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                     <div class="card-body">
@@ -24,7 +24,19 @@
 
 <script>
 export default {
+    head() {
+      return {
+          title: 'Digital Transformation of Buildings',
+          meta: [
+              {
+                  hid: 'description',
+                  name: 'description',
+                  content:'Providing buildings with the latest technologies that help and simplify the process of building management with maintenance, hygiene and technical systems'
+              }
 
+          ]
+      }
+  }
 }
 </script>
 
