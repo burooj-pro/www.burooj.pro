@@ -7,7 +7,7 @@
 
                 <div class="col-12 col-md-6 col-lg-3 order-md-1 order-2">
                     <div class="card h-100">
-                        <img src="~/assets/images/services/img1.webp" class="card-img-top" alt="...">
+                        <img src="~/assets/images/services/s01.webp" class="card-img-top" alt="Drone Cleaning">
                         <div class="card-body d-flex flex-column align-items-start">
                             <h5 class="card-title fw-bold">Drone Cleaning</h5>
                             <p class="card-text">Custom-designed, state-of-the-art drone technology to clean building exteriors.</p>
@@ -18,7 +18,7 @@
 
                 <div class="col-12 col-md-6 col-lg-3 order-md-2 order-3">
                     <div class="card h-100">
-                        <img src="~/assets/images/services/img2.webp" class="card-img-top" alt="...">
+                        <img src="~/assets/images/services/s02.webp" class="card-img-top" alt="Buildings Digital Transformation">
                         <div class="card-body d-flex flex-column align-items-start">
                             <h5 class="card-title fw-bold">Buildings Digital Transformation</h5>
                             <p class="card-text">Latest technologies for better management, maintenance and hygiene.</p>
@@ -29,7 +29,7 @@
 
                 <div class="col-12 col-md-6 col-lg-3 order-md-3 order-4">
                     <div class="card h-100">
-                        <img src="~/assets/images/services/img3.webp" class="card-img-top" alt="...">
+                        <img src="~/assets/images/services/s03.webp" class="card-img-top" style="object-position: bottom" alt="Finishing & Restoration">
                         <div class="card-body d-flex flex-column align-items-start">
                             <h5 class="card-title fw-bold">Finishing & Restoration</h5>
                             <p class="card-text">Building renovations & finishing, including floors, walls, plumbing, electrcail and HVAC..</p>
