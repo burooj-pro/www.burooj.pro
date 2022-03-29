@@ -7,7 +7,7 @@
             <article class="card rounded-3 shadow-sm">
                 <div class="row g-0">
                     <div class="col-md-4">
-                    <img src="~/assets/images/services/img1.webp" class="img-fluid rounded-start" alt="...">
+                    <img src="~/assets/images/services/s01.webp" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col-md-8">
                     <div class="card-body">
