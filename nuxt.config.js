@@ -41,7 +41,12 @@ export default {
         { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
         { rel: 'icon', type: 'image/png', href: '/logo.png' },
-    ]
+    ],
+    script: [
+      {
+        src: "https://webforms.pipedrive.com/f/loader",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
