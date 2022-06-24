@@ -10,6 +10,13 @@
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  head(){
+    return {
+      script: [
+				{type: 'text/javascript',src: 'https://webforms.pipedrive.com/f/loader'},
+			],
+    }
+  },
 }
 </script>
