@@ -3,7 +3,7 @@
     <section id="services" class="pattern-bg-left-top services py-5">
         <div class="container py-5">
             <div class="row py-5 gy-3">
-                
+
 
                 <div class="col-12 col-md-6 col-lg-3 order-md-1 order-2">
                     <div class="card h-100">
@@ -32,7 +32,7 @@
                         <img src="~/assets/images/services/s03.webp" class="card-img-top" style="object-position: bottom" alt="Finishing & Restoration">
                         <div class="card-body d-flex flex-column align-items-start">
                             <h5 class="card-title fw-bold">Finishing & Restoration</h5>
-                            <p class="card-text">Building renovations & finishing, including floors, walls, plumbing, electrcail and HVAC..</p>
+                            <p class="card-text">Building design, renovations & finishing, including floors, walls, plumbing, electrcail and HVAC..</p>
                             <a href="/services/finishing-restoration" class="btn btn-primary btn-sm mt-auto align-self-end">learn more</a>
                         </div>
                     </div>
@@ -42,8 +42,8 @@
                     <h2 class="fw-bold gray-border-left">Our<br> Services</h2>
                     <p class="fs-6 lh-lg mb-5">Selection of services that take your construction/building to the next level</p>
                 </div>
-              
-                
+
+
             </div>
         </div>
     </section>

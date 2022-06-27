@@ -11,12 +11,12 @@
                     </div>
                     <div class="col-md-8">
                     <div class="card-body">
-                        <p class="lead text-muted card-text">Burooj team works on renovation and finishing of buildings, including floors and walls, plumbing, electrical, and air conditioning. </p>
+                        <p class="lead text-muted card-text">Burooj team works on design, renovation and finishing of buildings, including floors and walls, plumbing, electrical, and air conditioning. </p>
                         <a href="#contact" class="btn btn-primary btn-sm mt-auto align-self-end">Get in touch</a>
                     </div>
                     </div>
                 </div>
-                
+
             </article>
         </div>
     </section>
