@@ -7,9 +7,10 @@
                     <ul class="list-inline d-flex flex-column gap-3 gx-3 m-0 d-md-block text-center">
                         <li class="list-inline-item order-2 order-md-1 m-0 mx-md-3"><a class="text-decoration-none" href="/#">Home</a></li>
                         <li class="list-inline-item order-3 order-md-2 m-0 mx-md-3"><a class="text-decoration-none" href="/#services">Services</a></li>
-                        <li class="list-inline-item order-1 order-md-3 m-0"><a class="text-decoration-none" href="/#"><img src="~/assets/images/logo/white.webp" height="100" id="logo" class="" alt="Buruge"></a></li>
+                        <li class="list-inline-item order-1 order-md-3 m-0"><a class="text-decoration-none" href="/"><img src="~/assets/images/logo/white.webp" height="100" id="logo" class="" alt="Buruge"></a></li>
                         <li class="list-inline-item order-4 order-md-4 m-0 mx-md-3"><a class="text-decoration-none" href="/#aboutus">About</a></li>
                         <li class="list-inline-item order-5 order-md-5 m-0 mx-md-3"><a class="text-decoration-none" href="/#projects">Projects</a></li>
+                        <li class="list-inline-item m-0 mx-md-3"><a class="text-decoration-none" href="/privacy">Privacy Policy</a></li>
                     </ul>
                 </div>
 
